@@ -1,5 +1,5 @@
 {
-  "name": "tiptap-commands",
+  "name": "kma-tiptap-commands",
   "version": "1.12.5",
   "description": "Commands for tiptap",
   "homepage": "https://tiptap.scrumpy.io",
@@ -28,5 +28,6 @@
     "prosemirror-tables": "1.0.0",
     "prosemirror-utils": "0.9.6",
     "tiptap-utils": "^1.8.3"
-  }
+  },
+  "typings": "./typings/index.d.ts"
 }
