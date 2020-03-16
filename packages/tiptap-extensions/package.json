@@ -1,6 +1,6 @@
 {
   "name": "@kma/tiptap-extensions",
-  "version": "1.28.8",
+  "version": "1.28.9",
   "description": "Extensions for tiptap",
   "homepage": "https://tiptap.scrumpy.io",
   "license": "MIT",
@@ -21,8 +21,8 @@
     "url": "https://github.com/scrumpy/tiptap/issues"
   },
   "dependencies": {
-    "@kma/tiptap": "^1.26.10",
-    "@kma/tiptap-commands": "^1.12.9",
+    "@kma/tiptap": "^1.26.11",
+    "@kma/tiptap-commands": "^1.12.10",
     "lowlight": "1.13.0",
     "prosemirror-collab": "1.2.2",
     "prosemirror-history": "1.1.3",

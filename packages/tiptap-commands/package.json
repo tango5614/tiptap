@@ -1,6 +1,6 @@
 {
   "name": "@kma/tiptap-commands",
-  "version": "1.12.9",
+  "version": "1.12.10",
   "description": "Commands for tiptap",
   "homepage": "https://tiptap.scrumpy.io",
   "license": "MIT",
