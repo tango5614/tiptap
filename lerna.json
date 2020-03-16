@@ -4,5 +4,10 @@
   ],
   "npmClient": "yarn",
   "version": "independent",
-  "useWorkspaces": true
+  "useWorkspaces": true,
+  "command": {
+    "publish": {
+      "registry": "https://npm.corp.kuaishou.com"
+    }
+  }
 }

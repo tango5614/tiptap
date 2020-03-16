@@ -1,5 +1,5 @@
 {
-  "name": "kma-tiptap-extensions",
+  "name": "@kma/tiptap-extensions",
   "version": "1.28.7",
   "description": "Extensions for tiptap",
   "homepage": "https://tiptap.scrumpy.io",
@@ -30,8 +30,8 @@
     "prosemirror-transform": "1.2.3",
     "prosemirror-utils": "0.9.6",
     "prosemirror-view": "1.13.7",
-    "tiptap": "^1.26.6",
-    "tiptap-commands": "^1.12.5"
+    "@kma/tiptap": "^1.26.6",
+    "@kma/tiptap-commands": "^1.12.8"
   },
   "peerDependencies": {
     "vue": "^2.5.17",
