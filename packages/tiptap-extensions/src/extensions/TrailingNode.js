@@ -1,5 +1,5 @@
 import { Extension, Plugin, PluginKey } from 'tiptap'
-import { nodeEqualsType } from 'tiptap-utils'
+import { nodeEqualsType } from '@kma/tiptap-utils'
 
 export default class TrailingNode extends Extension {
 

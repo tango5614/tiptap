@@ -1,5 +1,5 @@
 import { Node } from 'tiptap'
-import { wrappingInputRule, toggleWrap } from 'tiptap-commands'
+import { wrappingInputRule, toggleWrap } from '@kma/tiptap-commands'
 
 export default class Blockquote extends Node {
 

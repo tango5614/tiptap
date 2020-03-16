@@ -1,6 +1,6 @@
 import { Node } from 'tiptap'
 import low from 'lowlight/lib/core'
-import { toggleBlockType, setBlockType, textblockTypeInputRule } from 'tiptap-commands'
+import { toggleBlockType, setBlockType, textblockTypeInputRule } from '@kma/tiptap-commands'
 import HighlightPlugin from '../plugins/Highlight'
 
 export default class CodeBlockHighlight extends Node {

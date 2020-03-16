@@ -11,7 +11,7 @@ import { gapCursor } from 'prosemirror-gapcursor'
 import { keymap } from 'prosemirror-keymap'
 import { baseKeymap } from 'prosemirror-commands'
 import { inputRules, undoInputRule } from 'prosemirror-inputrules'
-import { markIsActive, nodeIsActive, getMarkAttrs } from 'tiptap-utils'
+import { markIsActive, nodeIsActive, getMarkAttrs } from '@kma/tiptap-utils'
 import {
   injectCSS,
   camelCase,

@@ -1,5 +1,5 @@
 import { Node } from 'tiptap'
-import { wrappingInputRule, toggleList } from 'tiptap-commands'
+import { wrappingInputRule, toggleList } from '@kma/tiptap-commands'
 
 export default class BulletList extends Node {
 

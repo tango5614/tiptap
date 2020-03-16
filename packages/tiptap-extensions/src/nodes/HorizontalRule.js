@@ -1,5 +1,5 @@
 import { Node } from 'tiptap'
-import { nodeInputRule } from 'tiptap-commands'
+import { nodeInputRule } from '@kma/tiptap-commands'
 
 export default class HorizontalRule extends Node {
   get name() {

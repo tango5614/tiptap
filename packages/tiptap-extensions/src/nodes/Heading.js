@@ -1,5 +1,5 @@
 import { Node } from 'tiptap'
-import { setBlockType, textblockTypeInputRule, toggleBlockType } from 'tiptap-commands'
+import { setBlockType, textblockTypeInputRule, toggleBlockType } from '@kma/tiptap-commands'
 
 export default class Heading extends Node {
 

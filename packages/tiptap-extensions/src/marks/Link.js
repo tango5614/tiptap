@@ -1,6 +1,6 @@
 import { Mark, Plugin } from 'tiptap'
-import { updateMark, removeMark, pasteRule } from 'tiptap-commands'
-import { getMarkAttrs } from 'tiptap-utils'
+import { updateMark, removeMark, pasteRule } from '@kma/tiptap-commands'
+import { getMarkAttrs } from '@kma/tiptap-utils'
 
 export default class Link extends Mark {
 

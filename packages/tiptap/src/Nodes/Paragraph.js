@@ -1,4 +1,4 @@
-import { setBlockType } from 'tiptap-commands'
+import { setBlockType } from '@kma/tiptap-commands'
 import Node from '../Utils/Node'
 
 export default class Paragraph extends Node {

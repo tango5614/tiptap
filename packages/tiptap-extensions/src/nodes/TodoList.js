@@ -1,5 +1,5 @@
 import { Node } from 'tiptap'
-import { toggleList, wrappingInputRule } from 'tiptap-commands'
+import { toggleList, wrappingInputRule } from '@kma/tiptap-commands'
 
 export default class TodoList extends Node {
 

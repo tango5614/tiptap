@@ -1,5 +1,5 @@
 import { Node } from 'tiptap'
-import { sinkListItem, splitToDefaultListItem, liftListItem } from 'tiptap-commands'
+import { sinkListItem, splitToDefaultListItem, liftListItem } from '@kma/tiptap-commands'
 
 export default class TodoItem extends Node {
 

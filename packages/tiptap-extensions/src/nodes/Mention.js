@@ -1,5 +1,5 @@
 import { Node } from 'tiptap'
-import { replaceText } from 'tiptap-commands'
+import { replaceText } from '@kma/tiptap-commands'
 import SuggestionsPlugin from '../plugins/Suggestions'
 
 export default class Mention extends Node {

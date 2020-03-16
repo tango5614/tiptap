@@ -1,5 +1,5 @@
 import { Node } from 'tiptap'
-import { toggleBlockType, setBlockType, textblockTypeInputRule } from 'tiptap-commands'
+import { toggleBlockType, setBlockType, textblockTypeInputRule } from '@kma/tiptap-commands'
 
 export default class CodeBlock extends Node {
 

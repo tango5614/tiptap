@@ -1,5 +1,5 @@
 import { Mark } from 'tiptap'
-import { toggleMark, markInputRule, markPasteRule } from 'tiptap-commands'
+import { toggleMark, markInputRule, markPasteRule } from '@kma/tiptap-commands'
 
 export default class Italic extends Mark {
 

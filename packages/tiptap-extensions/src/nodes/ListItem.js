@@ -1,5 +1,5 @@
 import { Node } from 'tiptap'
-import { splitListItem, liftListItem, sinkListItem } from 'tiptap-commands'
+import { splitListItem, liftListItem, sinkListItem } from '@kma/tiptap-commands'
 
 export default class ListItem extends Node {
 
