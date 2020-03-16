@@ -6,7 +6,7 @@ import cjs from 'rollup-plugin-commonjs'
 import node from 'rollup-plugin-node-resolve'
 import replace from 'rollup-plugin-replace'
 import cssOnly from 'rollup-plugin-css-only'
-
+import alias from 'rollup-plugin-alias'
 const resolve = _path => path.resolve(__dirname, '../../', _path)
 
 function genConfig(opts) {
@@ -22,6 +22,14 @@ function genConfig(opts) {
     input: {
       input: opts.input,
       plugins: [
+        alias({
+          entries: {
+            tiptap: '@kma/tiptap',
+            'tiptap-commands': '@kma/tiptap-commands',
+            'tiptap-extensions': '@kma/tiptap-extensions',
+            'tiptap-utils': '@kma/tiptap-utils',
+          }
+        }),
         cssOnly({ output: false }),
         flow(),
         node(),
